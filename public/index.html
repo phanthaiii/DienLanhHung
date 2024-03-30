@@ -6,12 +6,37 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="msapplication-TileImage" content="icons/cropped-favicon-270x270.png" />
+	
+	<!-- FAVICONS -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-57-precomposed.png" />
+    <link rel="shortcut icon" href="icons/favicon.png" />
+	
+	<!-- GOOGLE WEB FONTS -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,400,500,700,900&ver=1.0.0" type="text/css" media="all" />
+	
+	<!-- BOOTSTRAP 3.3.7 CSS -->
+  
   </head>
-  <body>
+  <body id="body_wrapper" class="page-template-page-home vc_responsive">
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+<!--     
+    <script type="text/javascript" src="/public/js/test.js"></script>
+    <script type="text/javascript" src="/public/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/public/js/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript" src="/public/js/modernizr-2.6.2.min.js"></script>
+    
+    <!-- BOOTSTRAP 3.3.7 JS -->
+   
   </body>
+  
+	
 </html>
