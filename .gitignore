@@ -1,5 +1,14 @@
-Electronic/.vs/Electronic/FileContentIndex/07e81c77-d708-493f-98df-24277f758c18.vsidx
-Electronic/.vs/Electronic/FileContentIndex/5d3ccffa-e2e5-4f1c-a743-e0bccbe7ba14.vsidx
 
+bin/
+obj/
+packages/
+.vs/
+.config/
+*.user
+.sonarlint/
+Logs/
 *.vsidx
 Electronic/.vs/Electronic/FileContentIndex/read.lock
+*.dll
+*.exe
+*.dll

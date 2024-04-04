@@ -130,6 +130,17 @@ namespace Electronic
             services.AddControllersWithViews();
             services.AddRazorPages();
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFrontend",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:8080")
+                               .AllowAnyHeader()
+                               .AllowAnyMethod();
+                    });
+            });
+
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
         }
