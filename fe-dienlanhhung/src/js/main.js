@@ -291,7 +291,7 @@
 		}
 		return false;
 	});
-		
+	alert('test');
     $('.slideshow').owlCarousel2({
         navText: ['', ''],
         navClass: ['owl-custom-prev', 'owl-custom-next'],
