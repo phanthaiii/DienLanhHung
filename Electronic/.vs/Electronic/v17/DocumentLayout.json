@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94900054-246A-4FAD-8FB5-B5698C187E8E}|Electronic\\Electronic.API.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94900054-246A-4FAD-8FB5-B5698C187E8E}|Electronic\\Electronic.API.csproj|solutionrelative:electronic\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900054-246A-4FAD-8FB5-B5698C187E8E}|Electronic\\Electronic.API.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94900054-246A-4FAD-8FB5-B5698C187E8E}|Electronic\\Electronic.API.csproj|solutionrelative:electronic\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic.core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|solutionrelative:electronic.core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900054-246A-4FAD-8FB5-B5698C187E8E}|Electronic\\Electronic.API.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94900054-246A-4FAD-8FB5-B5698C187E8E}|Electronic\\Electronic.API.csproj|solutionrelative:electronic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900054-246A-4FAD-8FB5-B5698C187E8E}|Electronic\\Electronic.API.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94900054-246A-4FAD-8FB5-B5698C187E8E}|Electronic\\Electronic.API.csproj|solutionrelative:electronic\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900054-246A-4FAD-8FB5-B5698C187E8E}|Electronic\\Electronic.API.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic\\configurations\\servicesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94900054-246A-4FAD-8FB5-B5698C187E8E}|Electronic\\Electronic.API.csproj|solutionrelative:electronic\\configurations\\servicesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic.core\\interfaces\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|solutionrelative:electronic.core\\interfaces\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic.core\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|solutionrelative:electronic.core\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic.core\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|solutionrelative:electronic.core\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic.core\\dtos\\product\\request\\addproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|solutionrelative:electronic.core\\dtos\\product\\request\\addproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|d:\\outsource\\electronic\\dienlanhhung\\electronic\\electronic.core\\data\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B434029-3910-441B-9A04-20443EBC0111}|Electronic.Core\\Electronic.Core.csproj|solutionrelative:electronic.core\\data\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic\\appsettings.json",
+              "RelativeDocumentMoniker": "Electronic\\appsettings.json",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic\\appsettings.json",
+              "RelativeToolTip": "Electronic\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-04T15:58:39.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServicesConfiguration.cs",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic\\Configurations\\ServicesConfiguration.cs",
+              "RelativeDocumentMoniker": "Electronic\\Configurations\\ServicesConfiguration.cs",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic\\Configurations\\ServicesConfiguration.cs",
+              "RelativeToolTip": "Electronic\\Configurations\\ServicesConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:45:57.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Electronic\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Electronic\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowK4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:33:43.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Electronic\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Electronic\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:33:41.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Electronic\\Controllers\\ClientController.cs",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Electronic\\Controllers\\ClientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:33:36.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Electronic.Core\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Electronic.Core\\Services\\CategoryService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwD8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:56:19.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\Interfaces\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Electronic.Core\\Interfaces\\CategoryService.cs",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\Interfaces\\CategoryService.cs",
+              "RelativeToolTip": "Electronic.Core\\Interfaces\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:56:10.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Products.cs",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\Data\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "Electronic.Core\\Data\\Models\\Products.cs",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\Data\\Models\\Products.cs",
+              "RelativeToolTip": "Electronic.Core\\Data\\Models\\Products.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:23:40.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddProductRequest.cs",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\DTOs\\Product\\Request\\AddProductRequest.cs",
+              "RelativeDocumentMoniker": "Electronic.Core\\DTOs\\Product\\Request\\AddProductRequest.cs",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\DTOs\\Product\\Request\\AddProductRequest.cs",
+              "RelativeToolTip": "Electronic.Core\\DTOs\\Product\\Request\\AddProductRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:23:25.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Electronic.Core\\Services\\ProductService.cs",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\Services\\ProductService.cs",
+              "RelativeToolTip": "Electronic.Core\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAawBsAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:22:44.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Electronic.Core\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\outsource\\Electronic\\DienLanhHung\\Electronic\\Electronic.Core\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Electronic.Core\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:22:26.423Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
