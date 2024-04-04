@@ -7,7 +7,7 @@
         <!-- HEADER MENU -->
         <HeaderMenu> </HeaderMenu>
         <!-- HEADER CATEGORIES SEARCH -->
-        <LeftMenu></LeftMenu>
+        <LeftMenu :categories-menu="categoriesMenu"></LeftMenu>
         <!-- END HEADER CATEGORIES SEARCH -->
       </div>
     </div>
@@ -22,7 +22,7 @@
         </div>
       </div>
       <!-- ListProduct -->
-      <ListProduct></ListProduct>
+      <ListProduct :products="products"></ListProduct>
       <!-- End ListProduct -->
     </div>
   </div>
@@ -35,6 +35,10 @@ import Loading from "./Global/Loading.vue";
 import LeftMenu from "./LeftMenu/LeftMenu.vue";
 import ListProduct from "./ListProduct.vue";
 import { getWithParams } from "@/apiService.js";
+import apiService from "@/apiService.js";
+import { Categories } from "@/mockData.js";
+import products from "@/mockData.js";
+
 export default {
   name: "HomePage",
   components: {
@@ -44,27 +48,22 @@ export default {
     LeftMenu,
     ListProduct,
   },
-  props: {
-    msg: String,
+  props: {},
+  data() {
+    return {
+      products: {},
+      categoriesMenu: Categories,
+    };
   },
-
   mounted() {
     this.getProducts();
+    console.log(products);
   },
 
   methods: {
     getProducts() {
-      getWithParams("/SearchProductAsync", {
-        pageIndex: 1,
-        pageSize: 10,
-        searchTerm: "",
-      })
-        .then((response) => {
-          console.log(response.data);
-        })
-        .catch((error) => {
-          console.error(error);
-        });
+      this.products = products;
+      console.log(this.products);
     },
   },
 };
