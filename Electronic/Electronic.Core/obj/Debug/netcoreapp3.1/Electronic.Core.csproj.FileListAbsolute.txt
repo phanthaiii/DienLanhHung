@@ -11,3 +11,17 @@ D:\outsource\Electronic\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Elect
 D:\outsource\Electronic\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.dll
 D:\outsource\Electronic\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.pdb
 D:\outsource\Electronic\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.genruntimeconfig.cache
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\bin\Debug\netcoreapp3.1\Electronic.Core.deps.json
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\bin\Debug\netcoreapp3.1\Electronic.Core.runtimeconfig.json
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\bin\Debug\netcoreapp3.1\Electronic.Core.runtimeconfig.dev.json
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\bin\Debug\netcoreapp3.1\Electronic.Core.dll
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\bin\Debug\netcoreapp3.1\Electronic.Core.pdb
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.csproj.AssemblyReference.cache
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.AssemblyInfoInputs.cache
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.AssemblyInfo.cs
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.csproj.CoreCompileInputs.cache
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.sourcelink.json
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.dll
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.pdb
+D:\outsource\Electronic\DienLanhHung\Electronic\Electronic.Core\obj\Debug\netcoreapp3.1\Electronic.Core.genruntimeconfig.cache

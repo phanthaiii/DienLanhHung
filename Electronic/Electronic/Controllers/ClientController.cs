@@ -22,10 +22,10 @@ namespace Electronic.API.Controllers
         }
 
         [HttpGet]
-        [Route("GetProductAsync")]
-        public async Task<ActionResult> GetProductAsync(int pageIndex, int pageSize, string searchTerm = null)
+        [Route("SearchProductAsync")]
+        public async Task<ActionResult> SearchProductAsync(int pageIndex = 1, int pageSize = 10, string searchTerm = null)
         {
-            var result = await _productService.GetProductAsync(pageIndex, pageSize, searchTerm);
+            var result = await _productService.SearchProductAsync(pageIndex, pageSize, searchTerm);
             return Ok(result);
         }
 
