@@ -34,6 +34,7 @@ import HeaderMenu from "./Header/HeaderMenu.vue";
 import Loading from "./Global/Loading.vue";
 import LeftMenu from "./LeftMenu/LeftMenu.vue";
 import ListProduct from "./ListProduct.vue";
+import { getWithParams } from "@/apiService.js";
 export default {
   name: "HomePage",
   components: {
@@ -47,7 +48,25 @@ export default {
     msg: String,
   },
 
-  mounted() {},
+  mounted() {
+    this.getProducts();
+  },
+
+  methods: {
+    getProducts() {
+      getWithParams("/SearchProductAsync", {
+        pageIndex: 1,
+        pageSize: 10,
+        searchTerm: "",
+      })
+        .then((response) => {
+          console.log(response.data);
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    },
+  },
 };
 </script>
 
