@@ -9,9 +9,12 @@ namespace Electronic.Core.Interfaces
 {
     public interface IProductService
     {
-        Task<PaginationResult<ProductDto>> GetProductAsync(int pageIndex, int pageSize, string searchTerm = null);
+        Task<PaginationResult<ProductDto>> SearchProductAsync(int pageIndex, int pageSize, string searchTerm = null);
         Task<List<CategoryDto>> GetCategoriesAsync();
         Task<GroupProductDto> GetProductByCategory(int categoryId);
         Task ImportProducts(List<AddProductRequest> request);
+        Task<int> AddProductAsync(AddProductRequest request);
+        Task<bool> UpdateProductAsync(AddProductRequest request, int productId);
+        Task<bool> DeleteProductAsync(int productId);
     }
 }

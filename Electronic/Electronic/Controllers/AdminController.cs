@@ -1,12 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Electronic.Core.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Electronic.API.Controllers
 {
     public class AdminController : Controller
     {
-        public IActionResult Index()
+        private readonly ICategoryService _categoryService;
+
+        public AdminController(ICategoryService categoryService)
         {
-            return View();
+            _categoryService = categoryService;
         }
+
+
     }
 }

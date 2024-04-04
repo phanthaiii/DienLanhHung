@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Electronic.Web.props" />
+</Project>

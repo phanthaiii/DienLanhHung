@@ -6,10 +6,13 @@ using Electronic.Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+
 //using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Electronic.Core.Services
 {
@@ -22,7 +25,7 @@ namespace Electronic.Core.Services
             _electronicContext = electronicContext;
         }
 
-        public async Task<PaginationResult<ProductDto>> GetProductAsync(int pageIndex, int pageSize,string searchTerm = null)
+        public async Task<PaginationResult<ProductDto>> SearchProductAsync(int pageIndex, int pageSize,string searchTerm = null)
         {
             var query = _electronicContext.Products.AsQueryable();
 
@@ -108,6 +111,53 @@ namespace Electronic.Core.Services
             await _electronicContext.SaveChangesAsync();
         }
 
+        public async Task<int> AddProductAsync(AddProductRequest request)
+        {
+            var product = new Products()
+            {
+                CategoryId = request.CategoryId,
+                Code = request.Code,
+                Description = request.Description,
+                Name = request.Name,
+                Price = request.Price,
+                Unit = request.Unit
+            };
 
+            _electronicContext.Products.Add(product);
+            await _electronicContext.SaveChangesAsync();
+
+            return product.Id;
+        }
+
+
+        public async Task<bool> UpdateProductAsync(AddProductRequest request, int productId)
+        {
+            var product = await _electronicContext.Products.FirstOrDefaultAsync(x=> x.Id == productId);
+            if (product == null)
+                return false;
+
+            product.CategoryId = request.CategoryId;
+            product.Code = request.Code;
+            product.Description = request.Description;
+            product.Name = request.Name;
+            product.Price = request.Price;
+            product.Unit = request.Unit;
+
+            await _electronicContext.SaveChangesAsync();
+
+            return true;
+        }
+
+        public async Task<bool> DeleteProductAsync(int productId)
+        {
+            var product = await _electronicContext.Products.FirstOrDefaultAsync(x=>x.Id == productId);
+            if (product == null)
+                return false;
+
+            _electronicContext.Products.Remove(product);
+            await _electronicContext.SaveChangesAsync();
+
+            return true;
+        }
     }
 }

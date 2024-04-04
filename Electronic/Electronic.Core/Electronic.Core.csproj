@@ -22,4 +22,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\Category\Response\" />
+    <Folder Include="DTOs\Product\Response\" />
+  </ItemGroup>
+
 </Project>
