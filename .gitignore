@@ -8,3 +8,6 @@ packages/
 .sonarlint/
 Logs/
 *.vsidx
+*.dll
+*.exe
+*.dll
